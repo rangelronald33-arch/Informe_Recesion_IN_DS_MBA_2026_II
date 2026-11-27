@@ -1,25 +1,25 @@
 {
-  "run_date": "2026-11-20",
-  "data_through": "2026-09",
+  "run_date": "2026-11-27",
+  "data_through": "2026-10",
   "lagged_series": [
-    "SPREAD (last: 2026-09)",
-    "HSN1F_YOY (last: 2026-09)",
-    "FEDFUNDS (last: 2026-09)",
-    "CPILFESL_YOY (last: 2026-09)",
-    "PPIACO_YOY (last: 2026-09)",
-    "HOUST_YOY (last: 2026-09)"
+    "SPREAD (last: 2026-10)",
+    "HSN1F_YOY (last: 2026-10)",
+    "FEDFUNDS (last: 2026-10)",
+    "CPILFESL_YOY (last: 2026-10)",
+    "PPIACO_YOY (last: 2026-10)",
+    "HOUST_YOY (last: 2026-10)"
   ],
-  "ensemble_probability": 9.07,
+  "ensemble_probability": 9.01,
   "bic_probability": 17.82,
-  "ci_lower": 10.81,
-  "ci_upper": 24.31,
+  "ci_lower": 10.92,
+  "ci_upper": 24.24,
   "signal": "LOW",
   "consensus": "MODERATE",
   "model_probabilities": {
     "NY Fed (Spread Only)": 11.42,
     "Wright (Spread + FF)": 7.33,
     "BIC-Selected": 17.82,
-    "Estrella-Mishkin": 8.4,
+    "Estrella-Mishkin": 8.06,
     "Chauvet-Piger": 0.4
   },
   "bic_selected_features": [
@@ -37,9 +37,9 @@
       "percentile": 31.0
     },
     "HSN1F_YOY": {
-      "value": -0.1543,
+      "value": -0.6173,
       "category": "Vivienda",
-      "percentile": 44.0
+      "percentile": 42.0
     },
     "FEDFUNDS": {
       "value": 3.63,
@@ -68,9 +68,9 @@
       "category": "Rendimientos (derivada)",
       "current_value": 0.8699999999999997,
       "std_dev": 1.31270847384342,
-      "prob_minus_1sd": 31.853596637968558,
-      "prob_plus_1sd": 8.487423089004631,
-      "impact_pp": -23.36617354896393,
+      "prob_minus_1sd": 31.865834840975648,
+      "prob_plus_1sd": 8.492753515970819,
+      "impact_pp": -23.37308132500483,
       "trigger_30pct": -0.29,
       "distance_30pct": -1.16,
       "trigger_50pct": -1.82,
@@ -79,11 +79,11 @@
     {
       "feature": "HSN1F_YOY",
       "category": "Vivienda",
-      "current_value": -0.15432098765432167,
+      "current_value": -0.6172839506172867,
       "std_dev": 19.396338885291975,
-      "prob_minus_1sd": 18.19284421630723,
-      "prob_plus_1sd": 17.443875558357565,
-      "impact_pp": -0.7489686579496642,
+      "prob_minus_1sd": 18.20190236366887,
+      "prob_plus_1sd": 17.452696867988394,
+      "impact_pp": -0.7492054956804779,
       "trigger_30pct": null,
       "distance_30pct": null,
       "trigger_50pct": null,
@@ -94,22 +94,22 @@
       "category": "Rendimientos",
       "current_value": 3.63,
       "std_dev": 3.9797023972345182,
-      "prob_minus_1sd": 2.735875568673436,
-      "prob_plus_1sd": 53.041116198201536,
-      "impact_pp": 50.3052406295281,
-      "trigger_30pct": 5.22,
-      "distance_30pct": 1.59,
-      "trigger_50pct": 7.31,
-      "distance_50pct": 3.68
+      "prob_minus_1sd": 2.738036998856308,
+      "prob_plus_1sd": 53.05475410841218,
+      "impact_pp": 50.316717109555874,
+      "trigger_30pct": 5.21,
+      "distance_30pct": 1.58,
+      "trigger_50pct": 7.3,
+      "distance_50pct": 3.67
     },
     {
       "feature": "CPILFESL_YOY",
       "category": "Inflaci\u00f3n",
       "current_value": 2.4665177892309265,
       "std_dev": 2.4359477156837293,
-      "prob_minus_1sd": 45.71441005233322,
-      "prob_plus_1sd": 4.11778870450305,
-      "impact_pp": -41.59662134783017,
+      "prob_minus_1sd": 45.72800915522242,
+      "prob_plus_1sd": 4.120814523809487,
+      "impact_pp": -41.60719463141294,
       "trigger_30pct": 1.28,
       "distance_30pct": -1.19,
       "trigger_50pct": -0.29,
@@ -120,9 +120,9 @@
       "category": "Inflaci\u00f3n",
       "current_value": 8.568063485771349,
       "std_dev": 5.802184112653173,
-      "prob_minus_1sd": 5.083844684880902,
-      "prob_plus_1sd": 41.76022635157754,
-      "impact_pp": 36.67638166669664,
+      "prob_minus_1sd": 5.087428892203203,
+      "prob_plus_1sd": 41.7736118882408,
+      "impact_pp": 36.6861829960376,
       "trigger_30pct": 11.8,
       "distance_30pct": 3.23,
       "trigger_50pct": 16.06,
@@ -133,13 +133,13 @@
       "category": "Vivienda",
       "current_value": -4.399441340782118,
       "std_dev": 20.29399485522475,
-      "prob_minus_1sd": 37.6240091875612,
-      "prob_plus_1sd": 6.307789645100204,
-      "impact_pp": -31.316219542460995,
-      "trigger_30pct": -17.71,
-      "distance_30pct": -13.31,
-      "trigger_50pct": -35.24,
-      "distance_50pct": -30.84
+      "prob_minus_1sd": 37.637024184880005,
+      "prob_plus_1sd": 6.312037647587839,
+      "impact_pp": -31.324986537292165,
+      "trigger_30pct": -17.69,
+      "distance_30pct": -13.29,
+      "trigger_50pct": -35.23,
+      "distance_50pct": -30.83
     }
   ],
   "adverse_scenario_probability": 99.63,
@@ -147,22 +147,22 @@
   "trend_attribution": {
     "prob_24m_ago": 5.33,
     "prob_current": 17.82,
-    "prob_change_pp": 12.49,
+    "prob_change_pp": 12.5,
     "partial_effects": {
-      "SPREAD": -9.7337,
-      "HSN1F_YOY": 0.104,
-      "FEDFUNDS": -7.7052,
-      "CPILFESL_YOY": 7.0047,
-      "PPIACO_YOY": 18.9924,
-      "HOUST_YOY": 3.825
+      "SPREAD": -9.7358,
+      "HSN1F_YOY": 0.1102,
+      "FEDFUNDS": -7.7069,
+      "CPILFESL_YOY": 7.0062,
+      "PPIACO_YOY": 18.9966,
+      "HOUST_YOY": 3.8258
     },
     "top_improvement": {
       "feature": "SPREAD",
-      "effect_pp": -9.7337
+      "effect_pp": -9.7358
     },
     "top_risk": {
       "feature": "PPIACO_YOY",
-      "effect_pp": 18.9924
+      "effect_pp": 18.9966
     }
   },
   "model_metadata": {
